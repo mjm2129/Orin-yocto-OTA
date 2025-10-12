@@ -1,0 +1,6 @@
+LATEST_VERSION=2.0.0
+
+#file uploaded by junmo, 9/5 01:32
+
+
+# LATEST_VERSION must be configured by developer.  'LATEST_VerSION' is standard that systen decide to use OTA or not..
