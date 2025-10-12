@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Exec=gnome-terminal -- bash -c "/home/misys/start_ota.sh; exec bash"
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=OTA Script
