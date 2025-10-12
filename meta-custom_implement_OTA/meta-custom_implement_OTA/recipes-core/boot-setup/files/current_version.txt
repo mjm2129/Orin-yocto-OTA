@@ -1,0 +1,4 @@
+CURRENT_VERSION=2.0.0
+
+#description - this is after OTA version.
+#rootfs was updated with latest version.
