@@ -2,9 +2,10 @@
 
 <img width="959" height="630" alt="Image" src="https://github.com/user-attachments/assets/6926f6a6-a2fb-4af8-9b65-e3faeb294970" />
 
-## Whole Configuration is like this image.
-## In EMMC Partition, there is flashed Yocto Image.
-## In NVMe Partition, there is JetPack Linux, because Yocto doesn't need so much Disk space, and generally Users use much space in Jetson Linux.
+# System Layout
+#### Whole Configuration is like this image.
+#### In EMMC Partition, there is flashed Yocto Image.
+#### In NVMe Partition, there is JetPack Linux, because Yocto doesn't need so much Disk space, and generally Users use much space in Jetson Linux.
 
 
 
