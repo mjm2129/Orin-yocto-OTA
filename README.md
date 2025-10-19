@@ -6,11 +6,17 @@
 #### Whole Configuration is like this image.
 #### In EMMC Partition, there is flashed Yocto Image.
 #### In NVMe Partition, there is JetPack Linux, because Yocto doesn't need so much Disk space, and generally Users use much space in Jetson Linux.
-
+#### ===========================================================================================
 
 
 <img width="1226" height="608" alt="Image" src="https://github.com/user-attachments/assets/7c41e7b8-cea1-4f62-bab8-397ca084214d" />
+# Process
+#### whole Process is configured Three Step.
+#### First, when you boot AGX Orin with Emmc(Yocto), System will automatically setup Network, syncronize Time with Cloud server, Check Yocto Image version. and, If you need update, Reboot process will begin. In this Process, system will write OTA log in Cloud.
 
+#### Second, System will begin JetPack(NVMe), and check OTA log by downloading in cloud stroage. and Download OTA_Package (yocto rootfs). and start Update by using dd (disk dump) command. If succeed, You can check the success log in Cloud.
+
+#### Third, System will boot Yocto(EMMc), and finally check whether update is applied safely or not. In these Process, if something weird (like network problem, power off ... etc) happens, You can see booting is not working. for that, Users can configure the option of back-up in Cloud. For more information, refer the setting Document.
 
 
 
