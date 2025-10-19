@@ -2,6 +2,9 @@
 
 <img width="959" height="630" alt="Image" src="https://github.com/user-attachments/assets/6926f6a6-a2fb-4af8-9b65-e3faeb294970" />
 
+## Whole Configuration is like this image.
+## In EMMC Partition, there is flashed Yocto Image.
+## In NVMe Partition, there is JetPack Linux, because Yocto doesn't need so much Disk space, and generally Users use much space in Jetson Linux.
 
 
 
@@ -13,25 +16,23 @@
 
 
 
-How to set up 
+# How to set up 
 
-refer Document 
+## refer Document 
 https://github.com/mjm2129/Orin-yocto-OTA/blob/main/Setting%20Guide.pdf
+## There are Command that can apply OTA Layer including Using Cloud.
 
 
 
+=========================================================================================
+# Directory Instruction 
 
-In Cloud -> Ncloud 저장소 구성 (5개의 디렉토리를 만들어야 함)
+## In Cloud -> Ncloud 저장소 구성 
 
-In Host -> Yocto layer 구성 파일. 
+## In Host -> Yocto layer 구성 파일. 
 
-!!! 숨김 파일이 있어, 파일명 맨 앞에1을 붙여놨습니다. s3cmd-master 디렉토리에서 1로 시작하는 모든 파일들에게서 1을 제거하세요. (example : 1.ci.svnignore 파일 이름을 .ci.svnignore로 변경)
-
-
-
-
-In Orin -> Orin에서 실행되는 스크립트 및 desktop file
-
+## In Orin -> Orin에서 실행되는 스크립트 및 desktop file
+### !!! 숨김 파일이 있어, 파일명 맨 앞에1을 붙여놨습니다. s3cmd-master 디렉토리에서 1로 시작하는 모든 파일들에게서 1을 제거하세요. (example : 1.ci.svnignore 파일 이름을 .ci.svnignore로 변경) !!!
 =========================================================================================
 
 사용 가이드
