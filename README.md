@@ -10,6 +10,7 @@
 
 
 <img width="1226" height="608" alt="Image" src="https://github.com/user-attachments/assets/7c41e7b8-cea1-4f62-bab8-397ca084214d" />
+
 # Process
 #### whole Process is configured Three Step.
 #### First, when you boot AGX Orin with Emmc(Yocto), System will automatically setup Network, syncronize Time with Cloud server, Check Yocto Image version. and, If you need update, Reboot process will begin. In this Process, system will write OTA log in Cloud.
