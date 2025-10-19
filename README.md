@@ -1,3 +1,25 @@
+OTA - Update Layer in AGX ORIN
+
+<img width="959" height="630" alt="Image" src="https://github.com/user-attachments/assets/6926f6a6-a2fb-4af8-9b65-e3faeb294970" />
+
+
+
+
+<img width="1226" height="608" alt="Image" src="https://github.com/user-attachments/assets/7c41e7b8-cea1-4f62-bab8-397ca084214d" />
+
+
+
+
+
+
+
+How to set up 
+
+
+
+
+
+
 In Cloud -> Ncloud 저장소 구성 (5개의 디렉토리를 만들어야 함)
 
 In Host -> Yocto layer 구성 파일. 
