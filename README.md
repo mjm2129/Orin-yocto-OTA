@@ -18,13 +18,11 @@
 
 # How to set up 
 
-## refer Document 
+refer Document 
 https://github.com/mjm2129/Orin-yocto-OTA/blob/main/Setting%20Guide.pdf
-## There are Command that can apply OTA Layer including Using Cloud.
-
-
-
+There are Command that can apply OTA Layer including Using Cloud.
 =========================================================================================
+
 # Directory Instruction 
 
 ## In Cloud -> Ncloud 저장소 구성 
