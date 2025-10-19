@@ -19,7 +19,7 @@
 
 #### Third, System will boot Yocto(EMMc), and finally check whether update is applied safely or not. In these Process, if something weird (like network problem, power off ... etc) happens, You can see booting is not working. for that, Users can configure the option of back-up in Cloud. For more information, refer the setting Document.
 
-
+=========================================================================================
 
 
 
