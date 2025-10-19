@@ -1,4 +1,4 @@
-#OTA - Update Layer in AGX ORIN
+### OTA - Update Layer in AGX ORIN
 
 <img width="959" height="630" alt="Image" src="https://github.com/user-attachments/assets/6926f6a6-a2fb-4af8-9b65-e3faeb294970" />
 
