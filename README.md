@@ -19,8 +19,8 @@
 # How to set up 
 
 #### refer Document 
-https://github.com/mjm2129/Orin-yocto-OTA/blob/main/Setting%20Guide.pdf
-There are Command that can apply OTA Layer including Using Cloud.
+#### https://github.com/mjm2129/Orin-yocto-OTA/blob/main/Setting%20Guide.pdf
+#### There are Command that can apply OTA Layer including Using Cloud.
 =========================================================================================
 
 # Directory Instruction 
